@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:wght@100;800&display=swap');
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+html,body {
+      width: 100%;
+      height: 100%;
+}
+
+header { 
+   background-image: linear-gradient(rgba(42,58,74,0.85), rgba(42,58,74,0.85)),url(Picture1.jpg);
+   height: 100vh;
+   background-size: cover;
+   background-position: center;
+}
+
+#main {
+     background: transparent;
+     width: 100%;
+     height: 50px;
+}
+
+#main .logo {
+    float: left;
+}
+
+.logo {  
+
+  width: 80px;
+  height: 80px;
+  background-position: center;
+  background-size: cover;
+  margin-left: 80px;
+  margin-top: 2px;
+ }
+
+
+ #main nav ul {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+ }
+
+ #main nav ul li {
+     list-style-type: none;
+     display: inline-block;
+     margin: 0 8px;
+     line-height: 50px;
+ }
+
+
+ #main nav ul li a {
+     text-decoration: none;
+     color: #fff;
+     font-size: 20px;
+     padding: 6px 13 px;
+     transition: 0.4s all ease-out;
+     font-family: 'Quicksand', sans-serif;
+ }
+
+
+ #main nav ul li a.active,
+ #main nav ul li a:hover {
+     background: #389ABF;
+     color: #fff;
+     transition: 0.4s all ease-out;
+     padding: 8px;
+ }
+
+ .text {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 54%;
+    left: 30%;
+ }
+
+ .text h1 {
+     color: #fff;
+     font-size: 69px;
+     font-family: 'Raleway', sans-serif;
+ }
+
+ .text span {
+    width: 4px;
+    height: 20px;
+    background: #389ABF;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 6%;
+    left: -15px;
+ }
+
+ .text p {
+     font-size: 25px;
+     line-height: 25px;
+     letter-spacing: 2px;
+     color: #fff;
+     font-family: 'Quicksand', sans-serif;
+ }
+
+ .text  .btn {
+      width: 300px; 
+      height: 70px;
+      border: none;
+      margin-left: -10px;
+      background: #389ABF;
+      color: #fff;
+      transition: 0.5s all ease-out;
+      margin-top: 10px;
+      font-family: 'Quicksand', sans-serif;
+      font-size: 30px;
+
+ }
+
+ .text .btn:hover {
+
+       background: transparent;
+       border: 1px solid #fff;
+       transition: 0.5s all ease-outr;  
+
+ }
+
